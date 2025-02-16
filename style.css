@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* 垂直方向布局 */
+    justify-content: center; /* 中心对齐 */
+    min-height: 100vh;
+    background-color: #F1d9d9; 
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background-color: #ddd;
+    margin-bottom: 20px; 
+    margin-left: 664px;
+}
+
+.box2 {
+    width: 100%;
+    padding: 20px;
+    color: purple;
+    box-sizing: border-box;
+    flex-shrink: 0; 
+    text-align: center;
+    font-size:40px;
+}
+
+.box3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.btn1 {
+    margin-left:700px;
+    background-color: red;
+    color: white;
+}
+
+.btn2 {
+    margin-right:700px;
+    background-color: blue;
+    color: white;
+}
